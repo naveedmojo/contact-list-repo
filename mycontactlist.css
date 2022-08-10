@@ -1,0 +1,137 @@
+body {
+  background: #121212;
+  color: #ccc;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  background-color: #181818;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 5%;
+  border-radius: 18px;
+  padding: 0.5rem 0.3rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+input[type='text'] {
+  border-radius: 15px;
+  margin: 6px 0;
+  padding: 8px;
+  box-sizing: borderbox;
+  outline: none;
+  display: block;
+  width: 100%;
+  border: 1.8px solid white;
+  font-size: 18px;
+  font-weight: 400;
+}
+input[type='text']::placeholder {
+  color: #181818;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 5px;
+  box-sizing: border-box;
+}
+input[type='text']:focus {
+  border-color: rgb(227, 40, 40);
+  box-shadow: 0 0 10px 0 rgba(212, 17, 17, 0.5);
+}
+form > div {
+  width: 90%;
+  box-sizing: border-box;
+  margin: 8px 0;
+  margin-left: 1.5%;
+}
+.submit-field {
+  width: 100%;
+  outline: none;
+}
+.submit-btn {
+  background-color: #0066a2;
+  color: #fff;
+  width: 96%;
+  border-radius: 18px;
+  padding: 0.6rem 0;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1.1px;
+  margin-top: 0.3rem;
+  text-shadow: none;
+  border: none;
+  transition: 0.5s ease;
+}
+.submit-btn:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+h3 {
+  font-size: 25px;
+  color: #eee;
+  padding: 1px 3px;
+  margin-right: 7%;
+  transition: 0.3s ease-in;
+}
+span {
+  display: inline-block;
+}
+span#delete:hover {
+  color: darkred;
+  cursor: pointer;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+}
+#contact-list {
+  margin-top: 1.5rem;
+}
+div.icon {
+  font-size: 30px;
+  background-color: #74c843;
+  color: #eee;
+  border-radius: 42%;
+  padding: 0.6rem;
+  margin-left: 0.7rem;
+}
+.list-item > div {
+  margin-left: 0.5rem;
+}
+.name {
+  font-size: 28px;
+  color: #eee;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.phonenumber {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 1px;
+}
+div.info {
+  margin-left: 4%;
+  padding-bottom: 7px;
+  border-bottom: 0.5px solid #ccc;
+  width: 85%;
+}
+div.delete-btn {
+  text-align: right;
+  height: fit-content;
+  padding: 5px;
+}
+#notification {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.alert-added {
+  color: lightgreen;
+  transition: 0.3s ease;
+}
+.alert-removed {
+  color: red;
+  transition: 0.3s ease;
+}
